@@ -1,7 +1,6 @@
 .body-flex {
     display: flex;
     flex-direction: column;
-    border: black 1px solid;
 }
 
 .header img {
@@ -65,4 +64,105 @@
     padding: 5px 30px;
     color: white;
     background-color: darkcyan;
+}
+
+.middle-page {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+
+.random-information {
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.empty-square {
+    border: #3882F6 solid 4px;
+    border-radius: 5px;
+    width: 160px;
+    height: 160px;
+}
+
+.random-information-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+.text-under-square {
+    margin-top: 10px;
+    text-align: center;
+    width: 160px;
+}
+
+.part-1,
+.part-2,
+.part-3,
+.part-4 {
+    margin: 40px;
+}
+
+.end-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px 150px;
+
+}
+
+.sarcasm-container {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+
+.end-page {
+    background-color: #E5E7EB;
+}
+
+.testimonial {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.cta {
+    background-color: #3882F6;
+    margin: 100px;
+    padding: 50px;
+    border-radius: 8px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+
+.cta-content {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cta-sign-up {
+    color: white;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 2px white solid;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: auto;
+    background-color: #1F2937;
+    color: white;
+    height: 100px;
 }
